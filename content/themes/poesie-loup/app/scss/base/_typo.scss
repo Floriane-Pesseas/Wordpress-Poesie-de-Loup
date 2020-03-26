@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine'),
+url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+
+html,
+body {
+    @media (min-width: $breakpoint-medium){
+        font-size: $font-size;
+    }
+
+    @media (min-width: $breakpoint-large){
+        font-size: $font-size-medium;
+    }
+}
+
+body{
+    color: $text-color;
+}

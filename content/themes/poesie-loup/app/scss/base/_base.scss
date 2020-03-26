@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   background-color: $background-page; 
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: $font-size-large;
+}
+h2 {
+    font-family: $font-family;
+}

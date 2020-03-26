@@ -1,0 +1,26 @@
+.posts {
+
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.post {
+    width: 100%;
+
+    @media(min-width: $breakpoint-large) {
+        width: 50%;
+    }
+
+    @media(min-width: $breakpoint-extra-large) {
+        width: 50%;
+    }
+
+    
+}
+
+.post {
+    background-position: center;
+    background-size: cover;
+}
+
